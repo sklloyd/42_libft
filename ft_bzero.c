@@ -6,19 +6,13 @@
 /*   By: slloyd <slloyd@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/17 16:32:52 by slloyd            #+#    #+#             */
-/*   Updated: 2022/01/18 13:13:36 by slloyd           ###   ########.fr       */
+/*   Updated: 2022/04/28 14:02:46 by slloyd           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	*ft_bzero(void *s, size_t n)
-{
-	size_t	t;
+#include "libft.h"
 
-	t = 0;
-	while (t < n)
-	{
-		((char *)s)[t] = 0;
-		t++;
-	}
-	return (s);
+void	ft_bzero(void *s, size_t n)
+{
+	ft_memset(s, 0, n);
 }

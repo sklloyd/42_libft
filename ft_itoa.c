@@ -3,27 +3,25 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: slloyd <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: slloyd <slloyd@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/04 17:41:31 by slloyd            #+#    #+#             */
-/*   Updated: 2022/02/04 17:41:35 by slloyd           ###   ########.fr       */
+/*   Updated: 2022/04/28 12:42:17 by slloyd           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static unsigned int	ft_numsize(int n)
+static unsigned int	ft_numlen(int num)
 {
 	unsigned int	len;
 
-	if (n == 0)
-		return (1);
 	len = 0;
-	if (n < 0)
-		len += 1;
-	while (n != 0)
+	if (num <= 0)
+		len++;
+	while (num != 0)
 	{
-		n /= 10;
+		num /= 10;
 		len++;
 	}
 	return (len);
@@ -31,29 +29,29 @@ static unsigned int	ft_numsize(int n)
 
 char	*ft_itoa(int n)
 {
-	char			*str;
-	unsigned int	num;
+	char			*s;
+	long int		num;
 	unsigned int	len;
+	int				sign;
 
-	len = ft_numsize(n);
-	str = (char *)malloc(sizeof(char) * (len + 1));
-	if (str == NULL)
+	num = n;
+	sign = 0;
+	len = ft_numlen(num);
+	s = malloc(sizeof(char) * len + 1);
+	if (!s)
 		return (NULL);
-	if (n < 0)
+	if (num < 0)
 	{
-		str[0] = '-';
-		num = -n;
+		s[0] = '-';
+		num *= -1;
+		sign = -1;
 	}
-	else
-		num = n;
-	if (num == 0)
-		str[0] = '0';
-	str[len] = '\0';
-	while (num != 0)
+	s[len] = '\0';
+	while (len + sign)
 	{
-		str[len - 1] = (num % 10) + '0';
-		num = num / 10;
+		s[len - 1] = (num % 10 + '0');
+		num /= 10;
 		len--;
 	}
-	return (str);
+	return (s);
 }
