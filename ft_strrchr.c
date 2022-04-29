@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: slloyd <slloyd@student.42.fr>              +#+  +:+       +#+        */
+/*   By: slloyd <slloyd@student.42adel.org.au>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/17 16:35:04 by slloyd            #+#    #+#             */
-/*   Updated: 2022/01/18 16:36:49 by slloyd           ###   ########.fr       */
+/*   Created: 2022/01/17 16:34:17 by slloyd            #+#    #+#             */
+/*   Updated: 2022/04/29 15:00:23 by slloyd           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,12 +16,12 @@ char	*ft_strrchr(const char *s, int c)
 {
 	int	i;
 
-	i = 0;
-	while (s[i] != '\0')
-		i++;
+	i = ft_strlen(s);
+	if (c == 0)
+		return ((char *)s + i);
 	while (i >= 0)
 	{
-		if (s[i] == c)
+		if (s[i] == (char)c)
 			return ((char *)s + i);
 		i--;
 	}

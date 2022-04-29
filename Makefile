@@ -38,15 +38,17 @@ SOURCES = ft_atoi.c \
           ft_substr.c \
           ft_tolower.c \
           ft_toupper.c
+
 BONUS = ft_lstadd_back.c \
         ft_lstadd_front.c \
-	ft_lstdelone.c	\
+		ft_lstdelone.c	\
         ft_lstclear.c \
         ft_lstiter.c \
         ft_lstlast.c \
         ft_lstmap.c \
         ft_lstnew.c \
         ft_lstsize.c
+
 HEADERS = libft.h
 OBJECTS = $(SOURCES:.c=.o)
 BONUS_OBJECTS = $(BONUS:.c=.o)
@@ -72,8 +74,6 @@ fclean: clean
 	@rm	-rf	$(NAME)
 	@echo	"[INFO]	Library	[$(NAME) removed!"
 
-
-#Re-make everything.
 re:	fclean	all
 
 .PHONY:
