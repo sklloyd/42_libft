@@ -3,12 +3,12 @@
 ### Functions from `<ctype.h>`
 
 -   [`ft_isalpha`](https://github.com/sklloyd/libft/blob/main/ft_isalpha.c) - checks for an alphabetic character
--   [`ft_isdigit`](https://github.com/sklloyd/libft/blob/main/ft_isdigit.c) - checks for a digit (0 through 9).
+-   [`ft_isdigit`](https://github.com/sklloyd/libft/blob/main/ft_isdigit.c) - checks for a digit (0-9)
 -   [`ft_isalnum`](https://github.com/sklloyd/libft/blob/main/ft_isalnum.c) - checks for an alphanumeric character
 -   [`ft_isascii`](https://github.com/sklloyd/libft/blob/main/ft_isascii.c) - checks whether c fits into the ASCII character set
 -   [`ft_isprint`](https://github.com/sklloyd/libft/blob/main/ft_isprint.c) - checks for any printable character
--   [`ft_toupper`](https://github.com/sklloyd/libft/blob/main/ft_toupper.c) - convert char to uppercase
--   [`ft_tolower`](https://github.com/sklloyd/libft/blob/main/ft_tolower.c) - convert char to lowercase
+-   [`ft_toupper`](https://github.com/sklloyd/libft/blob/main/ft_toupper.c) - converts char to uppercase
+-   [`ft_tolower`](https://github.com/sklloyd/libft/blob/main/ft_tolower.c) - converts char to lowercase
 
 ### Functions from `<string.h>`
 
@@ -25,7 +25,7 @@
 -   [`ft_memchr`](https://github.com/sklloyd/libft/blob/main/ft_memchr.c) - scan memory for a character
 -   [`ft_memcmp`](https://github.com/sklloyd/libft/blob/main/ft_memcmp.c) - compare memory areas
 -   [`ft_strnstr`](https://github.com/sklloyd/libft/blob/main/ft_strnstr.c) - locate a substring in a string
--   [`ft_strdup`](https://github.com/sklloyd/libft/blob/main/ft_strdup.c) - creates a dupplicate for the string passed as parameter
+-   [`ft_strdup`](https://github.com/sklloyd/libft/blob/main/ft_strdup.c) - creates a duplicate for the string passed as parameter
 
 ### Functions from `<stdlib.h>`
 
