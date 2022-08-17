@@ -5,7 +5,7 @@
 My first library!
 
 This is the first project at school 42 and is about coding a C library.
-It will contain a lot of general purpose functions that my programs will rely upon.
+It contains a lot of general purpose functions that my programs will rely upon.
 
 #### Objectives
 - Unix logic
