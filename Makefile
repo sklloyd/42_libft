@@ -41,7 +41,7 @@ SOURCES = ft_atoi.c \
 
 BONUS = ft_lstadd_back.c \
         ft_lstadd_front.c \
-		ft_lstdelone.c	\
+	ft_lstdelone.c \
         ft_lstclear.c \
         ft_lstiter.c \
         ft_lstlast.c \
