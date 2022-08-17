@@ -1,63 +1,85 @@
-# **Libft**
+# Libft
 
-### Functions from `<ctype.h>`
+<img src="libft_badge.png" width="150" height="150"/>
 
--   [`ft_isalpha`](https://github.com/sklloyd/libft/blob/main/ft_isalpha.c) - checks for an alphabetic character
--   [`ft_isdigit`](https://github.com/sklloyd/libft/blob/main/ft_isdigit.c) - checks for a digit (0-9)
--   [`ft_isalnum`](https://github.com/sklloyd/libft/blob/main/ft_isalnum.c) - checks for an alphanumeric character
--   [`ft_isascii`](https://github.com/sklloyd/libft/blob/main/ft_isascii.c) - checks whether c fits into the ASCII character set
--   [`ft_isprint`](https://github.com/sklloyd/libft/blob/main/ft_isprint.c) - checks for any printable character
--   [`ft_toupper`](https://github.com/sklloyd/libft/blob/main/ft_toupper.c) - converts char to uppercase
--   [`ft_tolower`](https://github.com/sklloyd/libft/blob/main/ft_tolower.c) - converts char to lowercase
+My first library!
 
-### Functions from `<string.h>`
+This is the first project at school 42 and is about coding a C library.
+It will contain a lot of general purpose functions that my programs will rely upon.
 
--   [`ft_memset`](https://github.com/sklloyd/libft/blob/main/ft_memset.c) - fill memory with a constant byte
--   [`ft_strlen`](https://github.com/sklloyd/libft/blob/main/ft_strlen.c) - calculate the length of a string
--   [`ft_bzero`](https://github.com/sklloyd/libft/blob/main/ft_bzero.c) - zero a byte string
--   [`ft_memcpy`](https://github.com/sklloyd/libft/blob/main/ft_memcpy.c) - copy memory area
--   [`ft_memmove`](https://github.com/sklloyd/libft/blob/main/ft_memmove.c) - copy memory area
--   [`ft_strlcpy`](https://github.com/sklloyd/libft/blob/main/ft_strlcpy.c) - copy string to an specific size
--   [`ft_strlcat`](https://github.com/sklloyd/libft/blob/main/ft_strlcat.c) - concatenate string to an specific size
--   [`ft_strchr`](https://github.com/sklloyd/libft/blob/main/ft_strchr.c) - locate character in string
--   [`ft_strrchr`](https://github.com/sklloyd/libft/blob/main/ft_strrchr.c) - locate character in string
--   [`ft_strncmp`](https://github.com/sklloyd/libft/blob/main/ft_strncmp.c) - compare two strings
--   [`ft_memchr`](https://github.com/sklloyd/libft/blob/main/ft_memchr.c) - scan memory for a character
--   [`ft_memcmp`](https://github.com/sklloyd/libft/blob/main/ft_memcmp.c) - compare memory areas
--   [`ft_strnstr`](https://github.com/sklloyd/libft/blob/main/ft_strnstr.c) - locate a substring in a string
--   [`ft_strdup`](https://github.com/sklloyd/libft/blob/main/ft_strdup.c) - creates a duplicate for the string passed as parameter
+#### Objectives
+- Unix logic
 
-### Functions from `<stdlib.h>`
+#### Skills
+- Algorithms & AI
+- Imperative programming
+- Rigor
 
--   [`ft_atoi`](https://github.com/sklloyd/libft/blob/main/ft_atoi.c) - convert a string to an integer
--   [`ft_calloc`](https://github.com/sklloyd/libft/blob/main/ft_calloc.c) - allocates memory and sets its bytes' values to 0
+#### My grade
+<img src="libft_score.png" width="150" height="150"/>
 
-### Non-standard functions
+----------
 
--   [`ft_substr`](https://github.com/sklloyd/libft/blob/main/ft_substr.c) - returns a substring from a string
--   [`ft_strjoin`](https://github.com/sklloyd/libft/blob/main/ft_strjoin.c) - concatenates two strings
--   [`ft_strtrim`](https://github.com/sklloyd/libft/blob/main/ft_strtrim.c) - trims the beginning and end of string with specific set of chars
--   [`ft_split`](https://github.com/sklloyd/libft/blob/main/ft_split.c) - splits a string using a char as parameter
--   [`ft_itoa`](https://github.com/sklloyd/libft/blob/main/ft_itoa.c) - converts a number into a string
--   [`ft_strmapi`](https://github.com/sklloyd/libft/blob/main/ft_strmapi.c) - applies a function to each character of a string
--   [`ft_striteri`](https://github.com/sklloyd/libft/blob/main/ft_striteri.c) - applies a function to each character of a string
--   [`ft_putchar_fd`](https://github.com/sklloyd/libft/blob/main/ft_putchar_fd.c) - output a char to a file descriptor
--   [`ft_putstr_fd`](https://github.com/sklloyd/libft/blob/main/ft_putstr_fd.c) - output a string to a file descriptor
--   [`ft_putendl_fd`](https://github.com/sklloyd/libft/blob/main/ft_putendl_fd.c) - output a string to a file descriptor, followed by a new line
--   [`ft_putnbr_fd`](https://github.com/sklloyd/libft/blob/main/ft_putnbr_fd.c) - output a number to a file descriptor
+## Functions
+
+### C Library <ctype.h>
+
+-   [`ft_isalpha`](https://github.com/sklloyd/libft/blob/main/ft_isalpha.c) - Checks whether the passed character is alphabetic.
+-   [`ft_isdigit`](https://github.com/sklloyd/libft/blob/main/ft_isdigit.c) - Checks whether the passed character is decimal digit.
+-   [`ft_isalnum`](https://github.com/sklloyd/libft/blob/main/ft_isalnum.c) - Checks whether the passed character is alphanumeric.
+-   [`ft_isascii`](https://github.com/sklloyd/libft/blob/main/ft_isascii.c) - Checks whether the passed character is ASCII.
+-   [`ft_isprint`](https://github.com/sklloyd/libft/blob/main/ft_isprint.c) - Checks whether the passed character is printable.
+-   [`ft_toupper`](https://github.com/sklloyd/libft/blob/main/ft_toupper.c) - Converts lowercase letters to uppercase.
+-   [`ft_tolower`](https://github.com/sklloyd/libft/blob/main/ft_tolower.c) - Converts uppercase letters to lowercase.
+
+### C Library <string.h>
+
+-   [`ft_memset`](https://github.com/sklloyd/libft/blob/main/ft_memset.c) - Copies the character c (an unsigned char) to the first n characters of the string.
+-   [`ft_strlen`](https://github.com/sklloyd/libft/blob/main/ft_strlen.c) - Computes the length of the string but not including the terminating null character.
+-   [`ft_bzero`](https://github.com/sklloyd/libft/blob/main/ft_bzero.c) - Erases the data in the n bytes of the memory block. (Write zeroes)
+-   [`ft_memcpy`](https://github.com/sklloyd/libft/blob/main/ft_memcpy.c) - Copies n characters from src to dest.
+-   [`ft_memmove`](https://github.com/sklloyd/libft/blob/main/ft_memmove.c) - Copies n characters from src to dest. (Non destructive manner)
+-   [`ft_strlcpy`](https://github.com/sklloyd/libft/blob/main/ft_strlcpy.c) - Copies up to dstsize - 1 characters from the string src to dst.
+-   [`ft_strlcat`](https://github.com/sklloyd/libft/blob/main/ft_strlcat.c) - Appends string src to the end of dst. It will append at most dstsize - strlen(dst) - 1 characters.
+-   [`ft_strchr`](https://github.com/sklloyd/libft/blob/main/ft_strchr.c) - Searches for the first occurrence of the character c (an unsigned char) in the string.
+-   [`ft_strrchr`](https://github.com/sklloyd/libft/blob/main/ft_strrchr.c) - Searches for the last occurrence of the character c (an unsigned char) in the string.
+-   [`ft_strncmp`](https://github.com/sklloyd/libft/blob/main/ft_strncmp.c) - Compares at most the first n bytes of str1 and str2.
+-   [`ft_memchr`](https://github.com/sklloyd/libft/blob/main/ft_memchr.c) - Searches for the first occurrence of the character c (an unsigned char) in the first n bytes of the string.
+-   [`ft_memcmp`](https://github.com/sklloyd/libft/blob/main/ft_memcmp.c) - Compares the first n bytes of str1 and str2.
+-   [`ft_strnstr`](https://github.com/sklloyd/libft/blob/main/ft_strnstr.c) - Locates the first occurrence of the null-terminated string little in the string big, where not more than len characters are searched.
+
+### C Library <stdlib.h>
+
+-   [`ft_atoi`](https://github.com/sklloyd/libft/blob/main/ft_atoi.c) - Converts the string to an integer (type int).
+-   [`ft_calloc`](https://github.com/sklloyd/libft/blob/main/ft_calloc.c) - Allocates the requested memory initialized to zero bytes.
+
+### Non-stantard C Library
+
+-   [`ft_substr`](https://github.com/sklloyd/libft/blob/main/ft_substr.c) - Returns a substring from the string 's'. The substring begins at index 'start' and is of maximum size 'len'.
+-   [`ft_strjoin`](https://github.com/sklloyd/libft/blob/main/ft_strjoin.c) - Returns a new string, which is the result of the concatenation of 's1' and 's2'.
+-   [`ft_strtrim`](https://github.com/sklloyd/libft/blob/main/ft_strtrim.c) - Returns a copy of 's1' with the characters specified in 'set' removed from the beginning and the end of the string.
+-   [`ft_split`](https://github.com/sklloyd/libft/blob/main/ft_split.c) - Splits a string using a char as parameter.
+-   [`ft_itoa`](https://github.com/sklloyd/libft/blob/main/ft_itoa.c) - Converts the int to a string (type char *).
+-   [`ft_strmapi`](https://github.com/sklloyd/libft/blob/main/ft_strmapi.c) - Applies a function to each character of the string 's' to create a new string.
+-   [`ft_striteri`](https://github.com/sklloyd/libft/blob/main/ft_striteri.c) - Applies a function to each character of the string.
+-   [`ft_putchar_fd`](https://github.com/sklloyd/libft/blob/main/ft_putchar_fd.c) - Outputs the character 'c' to the given file descriptor.
+-   [`ft_putstr_fd`](https://github.com/sklloyd/libft/blob/main/ft_putstr_fd.c) - Outputs the string 's' to the given file descriptor.
+-   [`ft_putendl_fd`](https://github.com/sklloyd/libft/blob/main/ft_putendl_fd.c) - Outputs the string 's' to the given file descriptor, followed by a newline.
+-   [`ft_putnbr_fd`](https://github.com/sklloyd/libft/blob/main/ft_putnbr_fd.c) - Outputs the integer 'n' to the given file descriptor.
+-   [`ft_strdup`](https://github.com/sklloyd/libft/blob/main/ft_strdup.c) - Returns a pointer to a null-terminated byte string, which is a duplicate of the string.
 
 ### Linked list functions
 
--   [`ft_lstnew`](https://github.com/sklloyd/libft/blob/main/ft_lstnew.c) - creates a new list element
--   [`ft_lstadd_front`](https://github.com/sklloyd/libft/blob/main/ft_lstadd_front.c) - adds an element at the beginning of a list
--   [`ft_lstsize`](https://github.com/sklloyd/libft/blob/main/ft_lstsize.c) - counts the number of elements in a list
--   [`ft_lstlast`](https://github.com/sklloyd/libft/blob/main/ft_lstlast.c) - returns the last element of the list
--   [`ft_lstadd_back`](https://github.com/sklloyd/libft/blob/main/ft_lstadd_back.c) - adds an element at the end of a list
--   [`ft_lstclear`](https://github.com/sklloyd/libft/blob/main/ft_lstclear.c) - deletes and free list
--   [`ft_lstiter`](https://github.com/sklloyd/libft/blob/main/ft_lstiter.c) - applies a function to each element of a list
--   [`ft_lstmap`](https://github.com/sklloyd/libft/blob/main/ft_lstmap.c) - applies a function to each element of a list
+-   [`ft_lstnew`](https://github.com/sklloyd/libft/blob/main/ft_lstnew.c) - Returns a new element.
+-   [`ft_lstadd_front`](https://github.com/sklloyd/libft/blob/main/ft_lstadd_front.c) - Adds the element at the beginning of the list.
+-   [`ft_lstsize`](https://github.com/sklloyd/libft/blob/main/ft_lstsize.c) - Counts the number of elements in a list.
+-   [`ft_lstlast`](https://github.com/sklloyd/libft/blob/main/ft_lstlast.c) - Returns the last element of the list.
+-   [`ft_lstadd_back`](https://github.com/sklloyd/libft/blob/main/ft_lstadd_back.c) - Adds the element at the end of the list.
+-   [`ft_lstclear`](https://github.com/sklloyd/libft/blob/main/ft_lstclear.c) - Deletes and frees the given element and every successor of that element, using a given function and free.
+-   [`ft_lstiter`](https://github.com/sklloyd/libft/blob/main/ft_lstiter.c) - Iterates the list and applies a function to the content of each element.
+-   [`ft_lstmap`](https://github.com/sklloyd/libft/blob/main/ft_lstmap.c) - Iterates the list and applies a function to the content of each element. Creates a new list resulting of the successive applications of the function. A 'del' function is used to delete the content of an element if needed.
 
-----------
+---------------
 
 ## Usage
 
