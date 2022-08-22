@@ -91,7 +91,7 @@ It contains a lot of general purpose functions that my programs will rely upon.
 
 Clone this repository to your local computer:
 
-$> git clone https://github.com/sklloyd/libft.git path/to/libft
+$> git clone https://github.com/sklloyd/42_libft.git path/to/libft
 
 In your local repository, run `make`
 
